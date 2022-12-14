@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Roboto:wght@100&family=Work+Sans:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.todo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+}
+
+
+.cuerpo {
+    margin-top: 0px;
+}
+
+.container-fluid a {
+    text-decoration: none;
+}
+
+.leyenda .frase1 {
+    font-size: 20px;
+    align-content: center;
+    align-items: center;
+    padding-top: 18%;
+    color: #005C63;
+}
+
+.leyenda .frase2 {
+    font-size: 3rem;
+    color: #82ae38;
+}
+
+.row .col-xl-7 {
+    margin-top: 6%;
+}
+
+
+.carousel-item h5 {
+    font-size: 4rem;
+    color: white;
+}
+
+.carousel-item p {
+    font-size: 2rem;
+    color: white;
+}
+
+.carrusel {
+    margin-top: 6%;
+}
+
+.foto {
+    height: 600px;
+}
+
+/* estilo css */
+
+.frase {
+    font-size: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    background-image: url(../Imagenes/Seguridad1.png.jpg);
+    height: 500px;
+    color: whitesmoke;
+    font-weight: 800;
+    padding-top: 10%;
+}
+
+.frase h1 {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 50px;
+}
+
+.frase p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.frase a {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+
+.frase .verservicios {
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 1px 1px;
+    margin: 0% 5%;
+}
+
+div.frase .verservicios {
+    font-size: 20px;
+    background-image: linear-gradient(to right, green, gray);
+}
+
+.valores {
+    margin: 10px;
+}
+
+.titulo {
+    text-align: center;
+    color: gray;
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+.tituloServicios {
+    margin-top: 50%;
+}
+
+.card {
+    padding: 3% 8%;
+    margin: 3% 3%;
+}
+
+.card a {
+    padding: 2% 5%;
+}
+
+.card h5 {
+    padding-bottom: 4%;
+}
+
+section.tituloServicios ul {
+    list-style: none;
+}
+
+section.tituloServicios li a {
+    text-decoration: none;
+}
+
+section.porqueElegirnos h3 {
+    color: gray;
+    margin-top: 10px;
+    font-size: 20 px;
+}
+
+
+.row {
+    text-align: center;
+    color: rgb(112, 111, 111);
+    padding-inline: 3%;
+}
+
+.row .col-xl-4 h4 {
+    text-align: center;
+    font-size: 1rem;
+    color: #82ae38;
+}
+
+.row .col-xl-4 h3 {
+    text-align: center;
+}
+
+.iconok:hover {
+    transform:scale(1.1, 1.1);
+}
+
+
+
+
+/* ACCESO CLIENTES */
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoReda {
+    width: 20%;
+    padding-top: 20px;
+}
+
+.contenidoPrincipal {
+    background-image: url(../Imagenes/acceso.jpg);
+}
+
+.bienvenido p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.cuadroAcceso {
+    padding: 0px 15px;
+    margin-left: 15%;
+    border: solid 1px rgb(192, 192, 192);
+    border-radius: 4px;
+    width: 30%;
+    background-color: white;
+    margin-top: 6%;
+}
+
+.cuadro {
+    padding: 3px;
+}
+
+.cuadro h1 {
+    text-align: center;
+}
+
+.preguntas {
+    color: grey;
+    text-align: center;
+}
+
+.preguntas a {
+    text-decoration: none;
+}
+
+/* NOSOTROS */
+
+.row .frase1 {
+    color: #005C63;
+}
+
+.row .frasenosotros {
+    font-size: 2rem;
+    color: #82ae38;
+}
+
+.cuadrosNosotros {
+    margin-top: 4%;
+}
+
+.row .shadow {
+    margin: 3% 5%;
+}
+
+.col-xl-6 .vyc {
+    color: #82ae38;
+    padding-inline: 9%;
+    text-align: left;
+}
+
+.col-xl-6 .vyc {
+    font-size: 24px;
+}
+
+.tituloClientes h3 {
+    font-size: 2rem;
+    margin-top: 5%;
+    color: #005C63;
+}
+
+.tituloClientes p {
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.row .col-xl-2:hover{
+    transform: scale(1.1, 1.1);
+}
+
+
+
+
+
+/* SERVICIOS */
+
+
+.col-xl-6 .frase1 {
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 5%;
+    color: grey;
+}
+
+.col-xl-6 h2 {
+    padding-top: 3%;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5%;
+    color: #005C63;
+}
+
+.col-xl-6 h3 {
+    padding-top: 3%;
+    text-align: left;
+    margin-left: 5%;
+    color: #82ae38;
+}
+
+.col-xl-6 p {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.col-xl-6 .boton {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.boton a {
+    text-decoration: none;
+}
+
+
+.cardIncendio {
+    margin-top: 5%;
+}
+
+.soluciones {
+    text-align: center;
+    color: #60909B;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.accordion-item {
+    width: 70%;
+    color: rgba(104, 124, 236, 0.911);
+}
+
+/* CONTACTO */
+
+
+.row .imagenContacto {
+    margin-top: 0%;
+}
+
+.formulario {
+    width: 60%;
+    margin-left: 2%;
+    border: #60909B solid 1px;
+    padding: 15px 30px;
+}
+
+.tituloFormulario {
+    margin-left: 2%;
+    font-size: 2rem;
+    padding-bottom: 1%;
+    color: #60909B;
+}
+
+
+
+
+/* FOOTER */
+
+.pie {
+    background-color: #005C63;
+    margin-top: 5%;
+    color: white;
+}
+
+.pie ul li {
+    list-style-type: none;
+}
+
+.cuadropie {
+    text-align: left;
+}
+
+.pie a {
+    text-decoration: none;
+}
+
+.row ul li {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+
+.row ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-xl-4 p {
+    color: white;
+    text-align: left;
+}
+
+.col-xl-4 .logopie {
+    width: 50%;
+    height: 61%;
+    padding-top: 2%;
+}
+
+.col-xl-4 {
+    align-content: left;
+    align-items: left;
+}
+
+.col-xl-2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.mt-5 .pie {
+    margin: 5% 5%;
+    padding: 5% 5%;
+    color: white;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.frasesPie {
+    color: white;
+}
+
+.d-flex {
+    color: white;
+    margin-bottom: 1%;
+
+    
+@media (max-width:760px) {
+    .todo {
+        display: none;
+        flex-wrap: wrap;
+    }
+}
+
+
+
